@@ -33,7 +33,6 @@ public class FakeApiService implements ApiService {
         List<User> randomUsers;
         randomUsers=FAKE_USERS_RANDOM;
         Collections.shuffle(randomUsers);
-        users.clear();
         users.add(randomUsers.get(0));
     }
 
