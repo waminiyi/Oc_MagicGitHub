@@ -30,8 +30,7 @@ public class FakeApiService implements ApiService {
     @Override
     public void generateRandomUser() {
         // TODO: A modifier
-        List<User> randomUsers;
-        randomUsers=FAKE_USERS_RANDOM;
+        List<User> randomUsers=FAKE_USERS_RANDOM;
         Collections.shuffle(randomUsers);
         users.add(randomUsers.get(0));
     }
